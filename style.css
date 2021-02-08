@@ -1,0 +1,145 @@
+html * {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.all-container {
+    display: grid;
+    grid-template-areas:
+            'top'
+            'mid'
+            'bottom';
+    grid-gap: 10px;
+    margin: 20px;
+    padding: 30px;
+    width: 80%;
+}
+
+.header-grid {
+    grid-area: top;
+    display: grid;
+    grid-template-areas:
+            'header header header header header header header header'
+            'main main main main main right right right';
+    grid-gap: 10px;
+    padding-bottom: 50px;
+}
+
+.all-content {
+    grid-area: mid;
+}
+.footer {
+    grid-area: bottom;
+    padding: 10px;
+    text-align: center;
+    font-size: 8pt;
+    color: gray;
+}
+
+
+.content-grid {
+    display: grid;
+    grid-template-areas:
+            'header'
+            'items';
+    grid-gap: 10px;
+}
+
+.content-item {
+    display: grid;
+    grid-template-areas: 'main main main main main main right right';
+    grid-gap: 10px;
+}
+
+.main-header {
+    grid-area: header;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.content-header {
+    grid-area: header;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.content-items {
+    grid-area: items;
+}
+
+.content {
+    grid-area: main;
+    padding: 10px;
+    font-size: 11pt;
+    text-align: left;
+}
+
+
+.sidebar {
+    grid-area: right;
+    text-align: right;
+}
+
+
+.navigation {
+    grid-area: menu;
+    font-size: 22px;
+    text-align: right;
+    padding: 10px;
+    text-justify: inter-word;
+    word-spacing: 30px;
+}
+
+
+
+
+.pub {
+    margin-left: 20px;
+}
+
+
+.grid-container > div {
+    font-family: Arial, sans-serif;
+}
+
+a:link, a:visited {
+    color: #1b5496;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8dd0ff;
+}
+
+a.menu:link, a.menu:visited {
+    color: #1b5496;
+    text-decoration: none;
+}
+
+a.menu:hover {
+    color: #8dd0ff;
+}
+
+li.level {
+    margin-bottom: 10pt;
+}
+
+img.side_img {
+    width: 200px;
+}
+
+#portrait {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.caption {
+    font-size: 8pt;
+    color: gray;
+}
+
+h3 {
+    color: #1b5496;
+}
+
