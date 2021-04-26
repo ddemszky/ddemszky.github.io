@@ -143,3 +143,13 @@ h3 {
     color: #1b5496;
 }
 
+.news{
+    width: 90%;
+    background: #f9f9f9;
+    border: 1px solid #c7c7c7;
+    color: #6e6e6e;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
