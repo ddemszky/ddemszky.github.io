@@ -12,6 +12,7 @@ html * {
     margin: 20px;
     padding: 30px;
     width: 80%;
+    font-size: 11pt;
 }
 
 .header-grid {
@@ -53,7 +54,7 @@ html * {
 .main-header {
     grid-area: header;
     text-align: center;
-    font-size: 14px;
+    font-size: 12pt;
     padding: 10px;
 }
 
@@ -61,7 +62,7 @@ html * {
     grid-area: header;
     text-align: center;
     padding: 10px;
-    font-size: 24px;
+    font-size: 24pt;
 }
 
 .content-items {
@@ -84,7 +85,7 @@ html * {
 
 .navigation {
     grid-area: menu;
-    font-size: 22px;
+    font-size: 22pt;
     text-align: right;
     padding: 10px;
     text-justify: inter-word;
@@ -102,6 +103,7 @@ html * {
 .grid-container > div {
     font-family: Arial, sans-serif;
 }
+
 
 a:link, a:visited {
     color: #1b5496;
@@ -155,5 +157,5 @@ h3 {
 
 
 .paper-title{
-    font-size: 12pt;
+    font-size: 13pt;
 }
