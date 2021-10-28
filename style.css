@@ -54,7 +54,7 @@ html * {
 .main-header {
     grid-area: header;
     text-align: center;
-    font-size: 12pt;
+    font-size: 13pt;
     padding: 10px;
 }
 
@@ -72,7 +72,7 @@ html * {
 .content {
     grid-area: main;
     padding: 10px;
-    font-size: 11pt;
+    font-size: 12pt;
     text-align: left;
 }
 
